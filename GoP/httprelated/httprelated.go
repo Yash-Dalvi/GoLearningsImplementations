@@ -1,21 +1,11 @@
-// Packages in Go - What would they be?!
-// They might be collection of module, a module typically would contain code written by someone else,
-// the functions in the modules and someone else would be using this package, so that this someone would save
-// the effort of writing the same code written by someone else!
-
-// The concept of go mod init - this go.mod is dependency management file,
-// in this file, the track of all the dependent packages are kept!
-package main
+package httprelated
 
 import (
 	"fmt"
 	"net/http"
-	"test"
 )
 
-func main() {
-	fmt.Print("HEllo world from Yash.")
-
+func Starthttpthings() {
 	// 2. Now I want to write a function which would take in desired path which will be mentioned as request
 	//for the above server and it would written response based on a function that I define
 
@@ -36,11 +26,6 @@ func main() {
 	// need to write very cumbersome code to use the default server mux.
 	// Like if any variable is passed in the url, then default server mux does not provide us the funcitonality
 	// to extract the variable out of the url.
-
-	// 3. Working with various packages
-
-	test.Simple()
-
 }
 
 func firstendpointfunction(w http.ResponseWriter, r *http.Request) {
