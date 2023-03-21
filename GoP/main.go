@@ -15,6 +15,8 @@ import (
 )
 
 func main() {
+
+	// I can below package calls if they are not needed for now!!!
 	fmt.Print("Hello")
 	httprelated.Starthttpthings()
 	hello.Testing()
