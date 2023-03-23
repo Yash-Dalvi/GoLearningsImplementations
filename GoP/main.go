@@ -23,6 +23,7 @@ func main() {
 	//httprelated.Starthttpthings()
 	//hello.Testing()
 	//muxpack.StartMux()
-	interfaceshexagonal.StartInterface()
+	//interfaceshexagonal.StartInterface()
+	interfaceshexagonal.StartInterface2()
 
 }
