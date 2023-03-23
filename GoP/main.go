@@ -9,16 +9,20 @@ package main
 // in this file, the track of all the dependent packages are kept!
 
 import (
-	"GOP/hello"
-	"GOP/httprelated"
+	//"GOP/hello"
+	//"GOP/httprelated"
 	"fmt"
+	//"GOP/muxpack"
+	"GOP/interfaceshexagonal"
 )
 
 func main() {
 
 	// I can below package calls if they are not needed for now!!!
-	fmt.Print("Hello")
-	httprelated.Starthttpthings()
-	hello.Testing()
+	fmt.Println("Hello from main")
+	//httprelated.Starthttpthings()
+	//hello.Testing()
+	//muxpack.StartMux()
+	interfaceshexagonal.StartInterface()
 
 }
