@@ -21,3 +21,5 @@ func NewCustomerRepositoryStub() CustomerRepositoryStub {
 
 // Next to do is to understand the complete dependency of the diagram flow.
 // Understand what is dependency injection!!
+// For dependency injection I have created a separate Word Document!!
+
