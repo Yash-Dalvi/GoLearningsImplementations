@@ -26,4 +26,8 @@ func main() {
 	//interfaceshexagonal.StartInterface()
 	interfaceshexagonal.StartInterface2()
 
+	// Need to continue understanding hexagonal architecture maybe somepoint later.
+	// https://ibm-learning.udemy.com/course/rest-based-microservices-api-development-in-go-lang/learn/lecture/22579888#overview
+	// above is the url to do so.
+
 }
